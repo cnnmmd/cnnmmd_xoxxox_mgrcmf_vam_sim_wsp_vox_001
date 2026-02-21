@@ -79,7 +79,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 11
         }
@@ -229,7 +229,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 35
         }
@@ -267,7 +267,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 69
         }
@@ -302,7 +302,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 68
         }
@@ -341,7 +341,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 70
         }
@@ -379,7 +379,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 71
         }
@@ -417,7 +417,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 74
         }
@@ -454,7 +454,7 @@
       "mode": 0,
       "inputs": [
         {
-          "name": "keydat",
+          "name": "keymmd",
           "type": "STRING",
           "link": 73
         }
