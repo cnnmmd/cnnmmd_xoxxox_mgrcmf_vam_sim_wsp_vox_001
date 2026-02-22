@@ -1,8 +1,8 @@
 {
   "id": "00000000-0000-0000-0000-000000000000",
   "revision": 0,
-  "last_node_id": 39,
-  "last_link_id": 74,
+  "last_node_id": 40,
+  "last_link_id": 75,
   "nodes": [
     {
       "id": 1,
@@ -16,7 +16,7 @@
         58
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [
         {
@@ -32,38 +32,6 @@
       "widgets_values": []
     },
     {
-      "id": 5,
-      "type": "PrimitiveInt",
-      "pos": [
-        -152.47930908203125,
-        116.57473754882812
-      ],
-      "size": [
-        315,
-        82
-      ],
-      "flags": {},
-      "order": 0,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            1
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PrimitiveInt"
-      },
-      "widgets_values": [
-        952569199311959,
-        "randomize"
-      ]
-    },
-    {
       "id": 12,
       "type": "Xoxxox_CnvDat",
       "pos": [
@@ -75,7 +43,7 @@
         82
       ],
       "flags": {},
-      "order": 4,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -86,7 +54,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             35
@@ -101,42 +69,6 @@
       ]
     },
     {
-      "id": 4,
-      "type": "Xoxxox_IniFlw",
-      "pos": [
-        -3.646446704864502,
-        -37.066741943359375
-      ],
-      "size": [
-        315,
-        58
-      ],
-      "flags": {},
-      "order": 1,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "random",
-          "type": "INT",
-          "link": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            8,
-            64
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Xoxxox_IniFlw"
-      },
-      "widgets_values": []
-    },
-    {
       "id": 11,
       "type": "Xoxxox_DlySet",
       "pos": [
@@ -148,7 +80,7 @@
         82
       ],
       "flags": {},
-      "order": 3,
+      "order": 2,
       "mode": 0,
       "inputs": [
         {
@@ -159,7 +91,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             11
@@ -185,18 +117,18 @@
         130
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [
         {
           "name": "string",
           "type": "STRING",
-          "link": 64
+          "link": 75
         }
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "string",
           "type": "STRING",
           "links": [
             66
@@ -225,7 +157,7 @@
         82
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -236,7 +168,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             68
@@ -263,7 +195,7 @@
         58
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [
         {
@@ -274,7 +206,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "txtres",
           "type": "STRING",
           "links": [
             6
@@ -298,7 +230,7 @@
         82
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [
         {
@@ -309,7 +241,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             69,
@@ -326,44 +258,6 @@
       ]
     },
     {
-      "id": 38,
-      "type": "Xoxxox_GenTxt",
-      "pos": [
-        978.4482421875,
-        83.94320678710938
-      ],
-      "size": [
-        270,
-        82
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "keymmd",
-          "type": "STRING",
-          "link": 70
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            71
-          ]
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Xoxxox_GenTxt"
-      },
-      "widgets_values": [
-        "xoxxox_tttsim",
-        "xoxxox/config_tttsim_000"
-      ]
-    },
-    {
       "id": 25,
       "type": "Xoxxox_CnvVce",
       "pos": [
@@ -375,7 +269,7 @@
         82
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [
         {
@@ -386,7 +280,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             73
@@ -413,7 +307,7 @@
         82
       ],
       "flags": {},
-      "order": 12,
+      "order": 11,
       "mode": 0,
       "inputs": [
         {
@@ -424,7 +318,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "string",
           "type": "STRING",
           "links": [
             72
@@ -450,7 +344,7 @@
         58
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [
         {
@@ -461,7 +355,7 @@
       ],
       "outputs": [
         {
-          "name": "STRING",
+          "name": "keymmd",
           "type": "STRING",
           "links": [
             74
@@ -487,7 +381,7 @@
         58
       ],
       "flags": {},
-      "order": 13,
+      "order": 12,
       "mode": 0,
       "inputs": [
         {
@@ -503,17 +397,80 @@
       "widgets_values": [
         5
       ]
+    },
+    {
+      "id": 40,
+      "type": "Xoxxox_IniFlw",
+      "pos": [
+        5.669681163172044,
+        47.77755811535508
+      ],
+      "size": [
+        171.478125,
+        26
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "string",
+          "type": "STRING",
+          "links": [
+            75
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Xoxxox_IniFlw"
+      }
+    },
+    {
+      "id": 38,
+      "type": "Xoxxox_GenTxt",
+      "pos": [
+        978.4482421875,
+        83.94320678710938
+      ],
+      "size": [
+        270,
+        102
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "keymmd",
+          "type": "STRING",
+          "link": 70
+        }
+      ],
+      "outputs": [
+        {
+          "name": "keymmd",
+          "type": "STRING",
+          "links": [
+            71
+          ]
+        },
+        {
+          "name": "keyopt",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Xoxxox_GenTxt"
+      },
+      "widgets_values": [
+        "xoxxox_tttsim",
+        "xoxxox/config_tttlcp_sis001"
+      ]
     }
   ],
   "links": [
-    [
-      1,
-      5,
-      0,
-      4,
-      0,
-      "INT"
-    ],
     [
       6,
       7,
@@ -535,14 +492,6 @@
       12,
       0,
       24,
-      0,
-      "STRING"
-    ],
-    [
-      64,
-      4,
-      0,
-      36,
       0,
       "STRING"
     ],
@@ -609,19 +558,28 @@
       17,
       0,
       "STRING"
+    ],
+    [
+      75,
+      40,
+      0,
+      36,
+      0,
+      "STRING"
     ]
   ],
   "groups": [],
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.620921323059155,
+      "scale": 0.5739971166364307,
       "offset": [
-        -118.35505272567207,
-        329.1258192674575
+        -97.7028574634324,
+        283.78191674404474
       ]
     },
-    "frontendVersion": "1.18.6"
+    "frontendVersion": "1.39.14",
+    "workflowRendererVersion": "LG"
   },
   "version": 0.4
 }
